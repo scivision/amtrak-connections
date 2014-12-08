@@ -6,5 +6,5 @@ Using archival data from statusmaps.net to do simple analysis of transfer statis
 
 Example:
 ``` ./amtrak.py 29 7 -d 2013-05-15 2013-05-31 ```
-that examines connections between the Capitol Limited to the Empire Builderfor the later half of May 2013
-![alt connection](http://scienceopen.github.io/29-7connect.png)
+that examines connections between the Capitol Limited to the Empire Builder for the later half of May 2013
+![Alt connection](http://scienceopen.github.io/7-29connect.png)
