@@ -26,7 +26,8 @@ TODO:
 2) make "hours left to make connection" work more reliably with missing data
 
 EXAMPLE USE (assuming you've already downloading ZIP archives from dixielandsoftware.net)
-
+./amtrak.py 29 7 -d 2013-05-15 2013-05-31
+that examines connections between the Capitol Limited to the Empire Builderfor the later half of May 2013
 """
 
 def main(dates,datafn,trains,stop,makeplot,h5fn,zipfn,doscrape):
