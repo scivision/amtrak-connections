@@ -4,10 +4,10 @@ All credit for data, wonderful web service to John Bobinyec of [statusmaps.net](
 
 Using archival data from statusmaps.net to do simple analysis of transfer statistics (missed connections).
 
-Setup from Terminal:
+Prereqs:
+---------
 ```
-cd ~
-git clone https://github.com/scienceopen/amtrak-connections
+pip install -r requirements.txt
 ```
 then go to [statusmaps.net archives](http://www.dixielandsoftware.net/Amtrak/status/StatusPages/index.html), download the ZIP files of interest and EXTRACT them using original directory structure into the ~/amtrak-connections folder. The Python code expects the directory structure.
 
