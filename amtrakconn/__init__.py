@@ -1,6 +1,6 @@
 from pathlib import Path
 from pandas.io.parsers import read_fwf
-from numpy import nan,in1d,where,atleast_1d,logical_and
+from numpy import nan,in1d,atleast_1d,logical_and
 from datetime import timedelta
 from zipfile import ZipFile
 from bs4 import BeautifulSoup
@@ -27,12 +27,12 @@ def plottrains(delays,actual,days,trains,dates,doplot):
         stations = []
         for t in trains:
             stations.append(delays[t].index.values.tolist())
-        overlapind = where(in1d(stations[0],stations[1]))[0]
+        overlapind = in1d(stations[0],stations[1])
         overlapstation = atleast_1d(stations[0][overlapind])
 
         if overlapstation.size==1:
             overlapstation = overlapstation[0]
-            otherind = where(in1d(stations[1],overlapstation))[0]
+            otherind = in1d(stations[1],overlapstation)
 
             if otherind > overlapind:
                 daydiff = int(days[trains[1]]) - 1
