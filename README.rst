@@ -1,6 +1,6 @@
 amtrak-connections
 ==================
-All credit for data, wonderful web service to John Bobinyec of `statusmaps.net <http://statusmaps.net>`_, as well as Amtrak.
+All credit for data, wonderful web service to John Bobinyec of `statusmaps.com <http://statusmaps.com>`_, as well as Amtrak.
 
 Using archival data from statusmaps.net to do simple analysis of transfer statistics (missed connections).
 
