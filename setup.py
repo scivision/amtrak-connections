@@ -12,6 +12,6 @@ setup(name='Amtrak Connections',
       version='0.5.0',
       install_requires=install_requires,
       tests_require=tests_require,
-      extras_require={'test':tests_require},
+      extras_require={'tests':tests_require},
       python_requires='>=2.7',
       )
