@@ -1,5 +1,0 @@
-bs4>=4.3.2
-pandas>=0.15
-numpy>=1.6
-dateutil>=2.4
-matplotlib>=1.4
